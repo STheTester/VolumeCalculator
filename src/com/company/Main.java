@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Enter a length to see the volume of three types of shapes");
         System.out.println("1. Sphere: Length = Radius and will give the volume of a sphere");
         System.out.println("2. Cube: Length = Side and will give the volume of a Cube");
-        System.out.println("2. Tetrahedron: Length = Side and will give the volume of a Cube");
+        System.out.println("2. Tetrahedron: Length = Edge and will give the volume of a Cube");
         Scanner sc = new Scanner(System.in);
         len = sc.next();
         AssignLength();
